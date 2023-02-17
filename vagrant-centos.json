@@ -61,7 +61,7 @@
   
   "post-processors": [
     {
-      "output": "sbeliakou-vagrant-centos-{{user `redhat_release`}}-{{user `redhat_platform`}}-minimal.box",
+      "output": "vagrant-centos-{{user `redhat_release`}}-{{user `redhat_platform`}}-minimal.box",
       "compression_level": "6",
       "type": "vagrant"
     }
